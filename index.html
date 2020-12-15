@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marlene Valle</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <header class="main-nav">
+    <div class="menu-btn">
+                    <h2 id="menu-toggle" class="fas fa-bars"></h2>   
+    </div>
+            <nav id="side-nav">
+                <div class="logo">
+                    <a href="#aboutme"><h2>Marlene</h2>
+                    <h5>Web Development <br> Student</h5></a>
+                </div>
+                <ul>
+                    <li><a href="#aboutme">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a class="print" href="#"><button onclick="myfun()">Download my resume</button></a>
+                <script type="text/javascript">
+                    function myfun(){
+                        window.print();
+                    }
+                </script>
+
+                <a href="#contact"><button>Contact me</button></a>
+            </nav>
+            <script>
+                $(document).ready(function(){
+                    $("#menu-toggle").click(function() {
+                        $("#side-nav").toggle(500);
+
+                    });
+                });
+            </script>
+          
+    </header>
+    <div id="aboutme" class="cv">
+        <div class="box-icons">
+            <div class="icon">
+                <a class="fa fa-envelope" href="mailto:marlene.valle030@gmail.com"></a>
+                <span> Send a message</span>
+            </div>
+            <div onclick="myfun()" class="icon">
+                <i href="" class="fa fa-file-download"></i>
+                <span>Download resume</span>
+            </div>
+        </div>
+       
+    <div class="intro">
+
+        <img src="/images/cv_picture.png" alt="">
+            <div>
+                <h1 class="fancy-mov">Hi, I'm Marlene Valle</h1>
+                <h3  style="text-align: center; color: #28587b;" class="text2">Web Development Student</h3>
+            
+                <ul style="text-align: center;" class="social-menu">
+                    <li><a href="https://github.com/MarleneValle" target="_black"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/marlenevh" target="_black"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/marlene_vh/" target="_black"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="mailto:marlene.valle030@gmail.com" target="_black"><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href="https://www.facebook.com/marlenevalleh/" target="_black"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://wa.me/46793202499" target="_black"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>         
+    </div> 
+    <br>
+    <br>
+    
+    <div>      
+            
+            <h2 class="fancy-mov">About me</h2>
+        
+            <p>I am a highly motivated and committed person with six years of experience in the marketing industry, now I have switched
+            my career and I am looking for an opportunity to be part of the software development department in a Swedish company.
+            <br>
+            <br>
+            I studied communication for five years and have a specialization in advertising. I am currently enrolled in a software
+            development program to become a full stack web developer. I am very excited to start working in this field which is very
+            related to my previous working experiences as a publicist, where I got vast experience working in customer service and
+            web development from the user's perspective.
+            <br>
+            <br>
+            I am a very creative, detail orientated and proactive person with a constant need to solve problems and make
+            improvements.</p>
+            <br>
+            <br>
+            <br>
+    </div>    
+
+    <span>
+        <div id="skills" class="skills">
+            
+            <h2 class="fancy-mov"> My skills</h2>
+            <br>
+            <ul>
+            <li>
+                <h3>HTML5</h3><span class="bar"> <span class="html"></span></span>
+            </li>
+        
+            <li>
+                <h3>CSS</h3><span class="bar"> <span class="css"></span></span>
+            </li>
+        
+            <li>
+                <h3>Microsoft Office</h3><span class="bar"> <span class="microsoft"></span></span>
+            </li>
+        
+            <li>
+                <h3>Adobe Illustrator</h3><span class="bar"> <span class="adobe"></span></span>
+            </li>
+        
+            <li>
+                <h3>Spanish</h3><span class="bar"> <span class="spanish"></span></span>
+            </li>
+        
+            <li>
+                <h3>Swedish</h3><span class="bar"> <span class="swedish"></span></span>
+            </li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+        
+            <h2 id="education" class="fancy-mov" id="tittle">Education</h2>
+            <br>
+            <ul>
+                <h3 class="fancy-mov" id="h3">Full Stack Web Development</h3>
+                <p class="fancy-mov" id="h4"> Foo Coding, newcomers programming education, Malmö Sweden, Nov 2019- Currently</p>
+                <br>
+                <h3 class="fancy-mov" id="h3">Bachelor’s Degree in Communication</h3>
+                <p class="fancy-mov" id="h4"> <strong> Advertising specialization</strong> <br> National Autonomous University of Mexico, Mexico City, Aug 2008 - Feb 2012</p>
+                <br>
+                <h3 class="fancy-mov" id="h3">Graphic Design</h3>
+                <br>
+                <p class="fancy-mov" id="h4">SCENE – Animation School, Mexico City, 2010-2011</p>
+        
+            </ul>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div>
+            <h2 id="experience" class="fancy-mov" class="title">Experience</h2>
+            <br>
+            <ul>
+                <p class="jobs">
+                    <h3 class="fancy-mov" id="h3">Key Account Manager</h3>
+                
+                    <h4 class="fancy-mov" id="h4"> Blah Blah Advertising Agency, Mexico City, 
+                    Dec 2013-Jan 2019</h4>
+                        <ul>
+                            <li> Account manager, B2B portfolio and public-sector accounts</li>
+                            <li>Pitch prospective clients and develop effective partnership among all stakeholders, as well as improving
+                            interoperability and effective correspondence</li> 
+                            <li>Develop brand identities, tone-of-voice and communication plans of our customers, as well as advise, coach and turn
+                            business topics into communications procedures for internal and external audiences</li>
+                            <li>Plan and carry out marketing strategies based in communication plans, audiences and targets. As well as ensure
+                            procedures are followed and timelines are met</li>
+                        </ul>
+                </p>
+                <br>
+                <p class="jobs">
+                    <h3 class="fancy-mov" id="h3">Account Manager</h3> 
+                    
+                    <h4 class="fancy-mov" id="h4"> Asterisco Healthcare Communications, Mexico City, Jun 2013 – Dec 2013</h4>
+                        <ul>
+                            <li>Manage accounts within pharmaceutic industry (Mead Johnson Nutrition, Sanofi and Pfizer) B2B portfolio and public-sector</li>
+                            <li>Lead communication initiatives according to the communication strategy and promotion plans, ensuring all requirements
+                            and deadlines are met</li>
+                            <li>Manage Purchasing Department, B2B negotiation and quality control</li>
+                        </ul>
+                </p>
+                <br>
+                <p class="jobs">
+                    <h3 class="fancy-mov" id="h3">Media Planner</h3>
+                    
+                    <h4 class="fancy-mov" id="h4">Havas Worldwide Agency, Mexico City, Oct 2012 – Jun 2013</h4>
+                        <ul>
+                            <li>Media buyer for leading retail brands, working closely with agencies, mass media and sponsors to reach all communication
+                            channels</li>
+                            <li>CPM evaluation and KPI generation based on media reach analysis</li>
+                        </ul>
+                </p>
+                <br>
+                <p class="jobs">
+                    <h3 class="fancy-mov" id="h3">Marketing Communications Intern</h3>
+                    
+                    <h4 class="fancy-mov" id="h4"> Pronatura México A.C., April 2012 – Oct 2012</h4>
+                        <ul>
+                            <li>Design the 2013 marketing strategy, including social networks, ATL and BTL</li>
+                            <li>Social media management, online content copy writing, marketing research, and event planning</li>
+                        </ul>
+                </p>
+                <br>
+                <p class="jobs">
+                    <h3 class="fancy-mov" id="h3">Area manager</h3>
+                    
+                    <h4 class="fancy-mov" id="h4"> National System of Statistical and Geographical Information of Mexico (INEGI), Part-time, Aug 2008 – April 2012</h4>
+                    <p>I started as an interviewer and worked my way up to a manager position.</p>
+                        <ul>
+                            <li>Team leader in censuses, surveys and statistical studies</li>
+                            <li>Train staff members about office procedures</li>
+                            <li>Perform workshops, conduct face-to-face and telephone interviews, enforce administrative procedures, analyze
+                            information, update databases and generate statistical results</li>
+                        </ul>
+                </p>
+                <br>
+                <br>
+                <br>
+            </ul>
+        </div>
+        <div>
+            
+            <h2 id="interests" class="fancy-mov">I enjoy...</h2>
+            <br>
+                <div class="hobbies">
+                    <div class="hobbie-icon">
+                        <img src="/icons/cooking.svg" alt="">
+                        <span>Cooking</span>
+                    </div>
+                    <div class="hobbie-icon">
+                        <img src="/icons/documentary.svg" alt="">
+                        <span>Watching <br> Documentary</span>
+                    </div>
+                    <div class="hobbie-icon">
+                        <img src="/icons/coding.svg" alt="">
+                        <span>Coding</span>
+                    </div>
+                    <div class="hobbie-icon">
+                        <img src="/icons/language.svg" alt="">
+                        <span>Learning <br> Languages</span>
+                    </div>
+                    <div class="hobbie-icon">
+                        <img src="/icons/team.svg" alt="">
+                        <span>Exchanging <br> Ideas</span>
+                    </div>
+                    <div class="hobbie-icon">
+                        <img src="/icons/teamwork.svg" alt="">
+                        <span>Teamwork</span>
+                    </div>
+                    <div class="hobbie-icon">
+                        <img src="/icons/travel.svg" alt="">
+                        <span>Traveling</span>
+                    </div>
+                    <div class="hobbie-icon">
+                        <img src="/icons/yoga.svg" alt="">
+                        <span>Practice <br> Yoga</span>
+                    </div>
+
+                </div>
+                <br>
+
+            <h2 class="fancy-mov">Volunteering</h2>
+            <br>
+            <ul style="text-align: center;">
+                <h4 class="fancy-mov" id="">Red Cross <br> Flea market, Malmö, May-July 2020</h4>
+                <br>
+                <br>
+                <h4 class="fancy-mov" id="">Pronatura Mexico <br> Reforestations, Mexico, Aug 2012- Feb 2013</h4>
+            </ul>
+        </div>
+    </span>
+        <br>
+        
+        <div>
+            
+            <h2 id="contact" class="fancy-mov">Contact</h2>
+            <br>
+        
+            <h4 style="text-align: left;"  class="text2">Send me a message!</h4>
+        </div>
+        <div class="contact">
+            <section>
+            <form action="">
+                <input type="text" placeholder="Name">
+                
+                <input type="tel" placeholder="Phone"> 
+                
+                <input type="email" placeholder="Email">
+                
+                <input type="text" placeholder="Subject">
+                
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+            </section>
+            <br>
+            <section id="info"> 
+            <div >
+                <ul>
+                <li>
+                    <h5>ADDRESS</h5>
+                    <p> 211 29, Malmö, Sweden</p>
+                </li>
+                
+                <li>
+                    <h5>PHONE</h5>
+                    <p>+46 79 320 24 99</p>
+                </li>
+                
+                <li>
+                    <h5>EMAIL</h5>
+                    <a style="color: #28587b;" href="mailto:marlene.valle030@gmail.com"><p>marlene.valle030@gmail.com</p></a>
+                </li>
+                </ul>
+            </div>
+            </section>
+        </div>
+         <span>
+                    <ul style="text-align: center;" class="social-menu">
+                        <li><a href="https://github.com/MarleneValle" target="_black"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/marlenevh" target="_black"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/marlene_vh/" target="_black"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="mailto:marlene.valle030@gmail.com" target="_black"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="https://www.facebook.com/marlenevalleh/" target="_black"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://wa.me/46793202499" target="_black"><i class="fab fa-whatsapp"></i></a></li>
+                    </ul>
+                </span>
+    <footer>
+        <h6 class="fa fa-copyright">Created by Marlene Valle 2020 - All rights reserved</h6>
+    </footer>
+</div>
+
+</body>
+</html>
