@@ -478,7 +478,7 @@ footer {
   color: #b6244f;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 480px) {
   .cv {
     width: 100%;
     margin: 0% 0% 0% 0%;
